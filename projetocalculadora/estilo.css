@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.button{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	background: rgba(0, 110, 235, 0.733);
+	border: none;
+	color: white;
+	border-radius: 3px;
+
+}
+
+.button:hover{
+	background-color: white;
+	color: black;
+}
+
+.textview{
+	width: 250px;
+	margin: 5px;
+	font-size: 25px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+table tr{
+	display: flex;
+}
+
+body #p1{
+	position: absolute;
+	top: 75%;
+	left: 39%;
+	font-family: Arial, Helvetica, sans-serif;
+}
